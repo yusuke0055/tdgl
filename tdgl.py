@@ -1,3 +1,4 @@
+# coding:utf-8
 #磁気ドメインパターン形成TDGL方程式 多くのファイルを生成
 #初期値の用意
 import numpy as np
@@ -17,7 +18,7 @@ def tdgl(hv,sv,seed,save=False):
         np.random.seed()
     else:
         seed_name = str(seed).zfill(4)    
-       np.random.seed(seed)
+        np.random.seed(seed)
 #        np.random.seed()
         
     print(seed_name,class_name)
