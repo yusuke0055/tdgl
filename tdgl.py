@@ -1,6 +1,5 @@
 #磁気ドメインパターン形成TDGL方程式 多くのファイルを生成
 #初期値の用意
-import cProfile
 import numpy as np
 from matplotlib import pyplot as plt
 import cv2
