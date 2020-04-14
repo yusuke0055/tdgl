@@ -18,8 +18,8 @@ def tdgl(hv,sv,seed,save=False):
         np.random.seed()
     else:
         seed_name = str(seed).zfill(4)    
-#       np.random.seed(seed)
-        np.random.seed()
+       np.random.seed(seed)
+#        np.random.seed()
         
     print(seed_name,class_name)
 
